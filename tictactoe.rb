@@ -1,7 +1,7 @@
 class Game
   attr_accessor :arr, :player_1, :player_2
 	def initialize(player_1)
-		  @arr = Array.new(9, " ")
+	    @arr = Array.new(9, " ")
 	    @player_1 = player_1
 	    @player_2 = "O"
 	    @current_player = player_1
