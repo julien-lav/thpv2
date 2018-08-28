@@ -40,7 +40,7 @@ class Game
    		board_winner = false
 
 		 if (  
-		  #Could be nice to add all the symbolq to a tab and check if @arr[] contain a symbol         
+		  #Could be nice to add all the symbols to a tab and check if @arr[] contain this symbol         
              	  ((@arr[0] == @arr[1] && @arr[1] == @arr[2]) && (@arr[0] == "X" || @arr[0] == "O")) ||
             	  ((@arr[3] == @arr[4] && @arr[4] == @arr[5]) && (@arr[3] == "X" || @arr[3] == "O")) ||
            	  ((@arr[6] == @arr[7] && @arr[7] == @arr[8]) && (@arr[6] == "X" || @arr[6] == "O")) ||
